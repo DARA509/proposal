@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Someone Special ❤️</title>
+
+<link rel="stylesheet" href="/CSS/proposal.css">
+
+
+<body>
+
+<!-- HEART BEAT -->
+<div class="heartbeat"></div>
+
+<!-- ROSE PETALS -->
+<div id="petals"></div>
+
+<!-- MUSIC -->
+<button id="audioBtn" onclick="toggleAudio()">▶️ Play </button>
+<audio id="mySound" src="/AUDIO/Abefe-Yori-yori-(JustNaija.com).mp3"></audio>
+
+<script>
+function toggleAudio() {
+    var sound = document.getElementById("mySound");
+    var btn = document .getElementById("audioBtn");
+    if (sound.paused) {
+        sound.play();
+        btn.innerHTML ="⏸️ Pause";
+    } else {
+        sound.pause();
+        btn.innerHTML = "▶️Play Audio"
+    }
+}
+</script>
+
+<button id="musicBtn">
+<i class="fa-solid fa-music"></i>
+</button>
+
+<div class="glass">
+
+<h1 id="typing"></h1>
+
+<p class="subtitle">
+Every moment with you has become one of my favourite memories ❤️
+</p>
+
+<!-- LIVE COUNTER -->
+<div class="counter">
+
+<h2>We've known each other for</h2>
+
+<p id="timeTogether"></p>
+
+</div>
+
+<!-- VIDEO SECTION -->
+
+<div class="videos">
+
+<video autoplay muted loop class="circle">
+<source src="/VIDEOS/VID-20260629-WA0153.mp4">
+</video>
+
+<video autoplay muted loop class="circle">
+<source src="/VIDEOS/VID-20260629-WA0144.mp4">
+</video>
+
+<video autoplay muted loop class="circle">
+<source src="/VIDEOS/VID-20260629-WA0332.mp4">
+</video>
+</div>
+
+<!-- PHOTO CAROUSEL -->
+
+<div class="carousel">
+
+<img src="/PICS/Screenshot_20260630-000432.jpg" class="slide active ">
+
+<img src="/PICS/Screenshot_20260630-000449.jpg" class="slide">
+
+<img src="/PICS/Screenshot_20260630-000630.jpg" class="slide">
+
+</div>
+
+<!-- LOVE LETTERS -->
+
+<section class="letter hidden">
+
+<h2>💌</h2>
+
+<p>
+Meeting you changed my life in ways I never imagined.
+Thank you for every smile,
+every laugh,
+every little moment.
+</p>
+
+</section>
+
+<section class="letter hidden">
+
+<h2>🌹</h2>
+
+<p>
+You're the first person I think about when I wake up
+and the last before I sleep.
+</p>
+
+</section>
+
+<section class="letter hidden">
+
+<h2>❤️</h2>
+
+<p>
+Life feels brighter with you in it.
+No matter what happens,
+I'll always appreciate you.
+</p>
+
+</section>
+
+<!-- OPTIONAL MAP -->
+
+<div class="map">
+
+<iframe
+
+src="https://maps.google.com/maps?q=Lagos&t=&z=13&ie=UTF8&iwloc=&output=embed"
+
+loading="lazy">
+
+</iframe>
+
+</div>
+
+<!-- QUESTION -->
+
+<div class="question">
+
+<h2>
+Favour,
+Will You Be My Girlfriend? 
+
+</h2>
+
+<div class="buttons">
+<a href="https://wa.me/07080817885/%20💖🥰%20she%20said%20yes">
+<button id="yes">
+
+YES ❤️ 
+
+</button>
+</a>
+
+<button id="no">
+
+NO 😅
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="/JAVASCRIPT/proposal.js"></script>
+
+</body>
+</html>
